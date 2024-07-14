@@ -17,3 +17,5 @@ def test_get_item():
     item_id = service.create_item(item)
     retrieved_item = service.get_item(item_id)
     assert retrieved_item["name"] == "Laptop"
+
+#Adicione funções de atualização e exclusão no ItemService e escreva testes para elas.
