@@ -1,0 +1,25 @@
+store_api/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models/
+│   │   ├── __init__.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── item.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── database.py
+│   │   ├── item_service.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── item_routes.py
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   ├── test_schemas.py
+│   │   ├── test_database.py
+│   │   ├── test_item_service.py
+│
+├── requirements.txt
+└── README.md
